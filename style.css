@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Source+Sans+Pro:wght@600&display=swap");
+
+body {
+  background-color: #f9f9f9;
+  font-size: 16px;
+}
+
+.post {
+  width: 600px;
+  height: 625px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  position: relative;
+  left: 33%;
+  top: 100px;
+  border-radius: 3%;
+}
+
+h1 {
+  font-size: 16px;
+  position: absolute;
+  left: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.1rem;
+}
+h2 {
+  font-size: 16px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  color: #033d99;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h2 > li {
+  float: right;
+  color: #666;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+  list-style-type: disc;
+  height: 0;
+}
+
+div.box {
+  width: 599px;
+  height: 500px;
+  background-color: #fff;
+  top: 65px;
+  position: relative;
+  border: 1px solid #eee;
+}
+div.castillo {
+  position: absolute;
+  width: 450px;
+  height: 440px;
+  padding: 30px;
+  left: 12px;
+}
+
+img {
+  height: 300px;
+  width: 550px;
+  position: absolute;
+  left: 27px;
+  border-radius: 20px;
+  top: 20px;
+}
+
+.post_title {
+  position: absolute;
+  top: 65%;
+  left: 20px;
+  font-size: 1.3rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.red_moon {
+  position: absolute;
+  top: 370px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #666;
+}
+.share {
+  position: absolute;
+  top: 585px;
+  left: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+}
